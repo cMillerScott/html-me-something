@@ -1,8 +1,31 @@
+.title {
+    text-align: center;
+}
 
+h1 {
+    color: rgb(1, 48, 1);
+    font-size: 20px;
+}
 
+.background {
+    background-image: url('images/old-parchment.jpg');
+    align-items: center;
+}
 
+figure {
+    align-items: center;
+}
+
+#list {
+    text-align: center;
+    }
 
 p {
     text-align: center;
-    color: darkgreen;
+    color: rgb(1, 48, 1);
   }
+
+#listitems {
+    list-style-type: none;
+    text-align: left;
+}
