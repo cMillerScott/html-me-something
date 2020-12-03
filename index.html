@@ -5,40 +5,20 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>A.T. Thru-Hike</title>
    <link rel="stylesheet" type="text/css" href="styles.css">
-   <link rel="stylesheet" type="text/css" href="norm.css">
 </head>
 
 <body class="background">
-   <div class="container1">
    <header>
-         <div class="title">
+      <div id="title">
          <h1><b>NOMAD DAYS</b></h1>
-         </div>
-         <p>An Appalachian Trail Photo Journal</p>
+         <h4>An Appalachian Trail Photo Journal</h4>
+      </div>
          <hr>
-         <figure>
-            <img src="images/chris katahdin.JPG" 
-                 alt="Katahdin Summit"  
-                 title="The author atop Mount Katahdin in Maine.">
-            <figcaption>Mount Katahdin: Northern terminus of the A.T.</figcaption>
-         </figure>
-         <p>
-         The Appalachian Trail is a blaze-marked footpath that extends over 2000 miles 
-         along the ridges, hills, and highlands that comprise the Appalachian Mountain 
-         range in the eastern portion of the United States. The A. T., as it is known 
-         among hikers, is really a network of interconnected trails, roads, sidewalks, 
-         bridges, and even a river that one must ferry across by canoe. Avid hikers and 
-         backpackers flock to the A. T., and many try to complete the entire trail in 
-         one epic push known as a “thru-hike”. In early March, 2017 my wife, Charle, 
-         our dog, Bridger, and I set out on an attempted Thru-Hike of the A. T.
-         </p>
-         <hr>
-   </div>
-   <div id="list">
+      <div id="listBlock">
       <a name ="list"></a>
-      <p><b>The A. T. passes through 14 states:</b></p>
-      <nav>
-         <ul id="listitems">
+      <nav id="listItems">
+      <h4><b>The A. T. passes through 14 states:</b></h4>
+         <ul class="items">
             <li>
                <a href="#Georgia"> Georgia</a>
             </li>
@@ -84,6 +64,23 @@
          </ul>
       </nav>
       </div>
+      <hr>
+      <figure>
+         <img src="images/chris katahdin.JPG" 
+              alt="Katahdin Summit"  
+              title="The author atop Mount Katahdin in Maine.">
+         <figcaption>Mount Katahdin: Northern terminus of the A.T.</figcaption>
+      </figure>
+      <p>
+      The Appalachian Trail is a blaze-marked footpath that extends over 2000 miles 
+      along the ridges, hills, and highlands that comprise the Appalachian Mountain 
+      range in the eastern portion of the United States. The A. T., as it is known 
+      among hikers, is really a network of interconnected trails, roads, sidewalks, 
+      bridges, and even a river that one must ferry across by canoe. Avid hikers and 
+      backpackers flock to the A. T., and many try to complete the entire trail in 
+      one epic push known as a “thru-hike”. In early March, 2017 my wife, Charle, 
+      our dog, Bridger, and I set out on a Thru-Hike of the A. T.
+      </p>
    </header>
    
    <main>
@@ -91,7 +88,9 @@
             <section>
                <hr>
                <a name ="Georgia"></a>
+               <div id="subTitle">
                <h2><b>GEORGIA</b></h2>
+               </div>
                <hr>
                <figure>
                   <img src="images/charle springer.JPG" 
@@ -256,8 +255,9 @@
                   <img src="images/half way pose.JPG"
                        alt="Charle and the author posing in front of the Appalachian Trail Conservancy sign."
                        title="Charle and the author posing in front of the Appalachian Trail Conservancy sign.">
-                  <figcaption>Charle and the author posing in front of the Appalachian Trail Conservancy sign.</figcaption>
-                  <p>
+                  <figcaption>Charle and the author posing in front of the Appalachian Trail Conservancy sign.</figcaption>     
+               </figure>
+               <p>
                   Though the mileage passing through West Virginia is a just a blip, only 4, 
                   this state important as it is considered to be the spiritual half-way point 
                   to most thru-hikers. Harper’s Ferry, WV is home to the Appalachian Trail 
@@ -265,8 +265,7 @@
                   ritual for thru-hikers to pass through the ATC building, and get their photo 
                   added to the roster of that year’s thru-hiker class. 
                   1000 miles down, 1000 to go!
-                  </p>     
-               </figure>
+               </p>
                <figure>
                   <img src="images/mary bridge.JPG"
                        alt="Hikers crossing a bridge over a highway in Maryland."
@@ -492,7 +491,7 @@
    
    <footer>
          <p>For more information about the Appalachian Trail:</p>
-         <ul>
+         <ul class="items">
             <li>
                <a href="https://appalachiantrail.org/" target="_blank"> Appalachian Trail Concervancy </a>
             </li>
@@ -503,7 +502,7 @@
                <a href="https://www.nps.gov/appa/index.htm" target="_blank"> National Park Service </a>
             </li>
          </ul>
-         <p>&copy; 2020 Christopher B. Miller</p>
+         <p id ="copy">&copy; 2020 Christopher B. Miller</p>
    </footer>
 </body>
 
